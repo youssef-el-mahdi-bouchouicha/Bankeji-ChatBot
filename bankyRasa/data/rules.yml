@@ -1,0 +1,180 @@
+version: "3.0"
+
+rules:
+
+- rule: Say greets anytime the user says greets
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say lost card anytime the user says lost card 
+  steps:
+  - intent: lost_card
+  - action: utter_lost_card
+  - action: utter_did_that_help
+  
+
+- rule: Say 'ena Bot w esmi Bankeji' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- rule: Say mission anytime the user says bank missions
+  steps:
+  - intent: bank_mission
+  - action: utter_bank_mission
+  - action: utter_did_that_help
+  
+
+- rule: Say services anytime the user says bank services  
+  steps:
+  - intent: bank_services
+  - action: utter_bank_services
+  - action: utter_did_that_help
+
+- rule: Say account anytime the user says bank account type 
+  steps:
+  - intent: bank_account_type
+  - action: utter_bank_account_type
+  - action: utter_did_that_help
+
+- rule: Say vision anytime the user says bank vision 
+  steps:
+  - intent: bank_Vision
+  - action: utter_bank_Vision
+  - action: utter_did_that_help
+ 
+- rule:  Say credit anytime the user says bank credit type    
+  steps:
+  - intent: bank_credit_type
+  - action: utter_bank_credit_type
+  - action: utter_did_that_help
+
+
+
+
+
+- rule: Say greet_an anytime the user says greet_an
+  steps:
+  - intent: greet_an
+  - action: utter_greet_an
+
+- rule: Say goodbye_an anytime the user says goodbye_an
+  steps:
+  - intent: goodbye_an
+  - action: utter_goodbye_an
+
+- rule: Say account type_an anytime the user sasks for account type_an
+  steps:
+  - intent: Bank_account_type_an
+  - action: utter_account_type_an
+  - action: utter_did_that_help_an
+
+- rule: Say lost card_an when asked about lost card_an
+  steps:
+  - intent: lost_card_an
+  - action: utter_lost_card_an
+  - action: utter_did_that_help_an
+
+- rule: Say mission_an anytime the user says mission_an
+  steps:
+  - intent: Bank_mission_an
+  - action: utter_mission_an
+  - action: utter_did_that_help_an
+
+- rule: Say values_an anytime the user says values_an
+  steps:
+  - intent: bank_values_an
+  - action: utter_values_an
+  - action: utter_did_that_help_an
+
+- rule: Say services_an anytime the user says services_an
+  steps:
+  - intent: Bank_services_an
+  - action: utter_Services_an
+  - action: utter_did_that_help_an
+
+- rule: Say credit_an anytime the user says credit_an
+  steps:
+  - intent: bank_credit_type_an
+  - action: utter_credit_an
+  - action: utter_did_that_help_an
+
+- rule: Say vision_an anytime the user says vision_an
+  steps:
+  - intent: bank_Vision_an
+  - action: utter_vision_an
+  - action: utter_did_that_help_an
+
+- rule: Say 'I am a bot' _an anytime the user challenges_an
+  steps:
+  - intent: bot_challenge_an
+  - action: utter_bot_an
+
+
+- rule: greet_fr when greet_fr
+  steps:
+  - intent: greet_fr
+  - action: utter_greet_fr
+
+- rule: good bye fr when goodbye_fr
+  steps:
+  - intent: goodbye_fr
+  - action: utter_goodbye_fr
+
+- rule: lost_fr when lost_fr
+  steps:
+  - intent: lost_card_fr
+  - action: utter_lost_card_fr
+  - action: utter_did_that_help_fr
+
+- rule: vision_fr when vision_fr
+  steps:
+  - intent: bank_Vision_fr
+  - action: utter_bank_Vision_fr
+  - action: utter_did_that_help_fr
+
+- rule: account_fr when account_fr
+  steps:
+  - intent: bank_account_type_fr
+  - action: utter_bank_account_type_fr
+  - action: utter_did_that_help_fr
+
+- rule: services_fr when services_fr
+  steps:
+  - intent: bank_services_fr
+  - action: utter_bank_services_fr
+  - action: utter_did_that_help_fr
+
+- rule: challenge_fr  when challenge_fr
+  steps:
+  - intent: bot_challenge_fr
+  - action: utter_bot_challenge_fr
+  - action: utter_did_that_help_fr
+
+- rule: mission_fr when mission_fr
+  steps:
+  - intent: bank_mission_fr
+  - action: utter_bank_mission_fr
+  - action: utter_did_that_help_fr
+
+- rule: values_fr when values_fr
+  steps:
+  - intent: bank_values_fr
+  - action: utter_bank_values_fr
+  - action: utter_did_that_help_fr
+
+- rule: credit_fr when credit_fr
+  steps:
+  - intent: bank_credit_type_fr
+  - action: utter_bank_credit_type_fr
+  - action: utter_did_that_help_fr
+
+ 
+
+
+

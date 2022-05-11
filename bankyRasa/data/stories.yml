@@ -1,0 +1,31 @@
+version: "3.0"
+
+stories:
+- story: happy case 
+  steps:
+  - intent: help_confirmation
+  - action: utter_happy
+
+- story: unhappy case 
+  steps:  
+  - intent: help_unconfirmation
+  - action: utter_unhappy
+- story: happy_an case 
+  steps:
+  - intent: help_confirmation_an
+  - action: utter_happy_an
+
+- story: unhappy_an case 
+  steps:  
+  - intent: help_unconfirmation_an
+  - action: utter_unhappy_an
+- story: happy_fr case 
+  steps:
+  - intent: help_confirmation_fr
+  - action: utter_happy_fr
+
+- story: unhappyfr case 
+  steps:  
+  - intent: help_unconfirmation_fr
+  - action: utter_unhappy_fr
+ 

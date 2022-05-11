@@ -1,0 +1,366 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - salem
+    - aslema
+    - ahla
+    - sbeh el khir
+    - sbeh el fol
+    - sbeh el nour
+    - ahla bik
+    - sbeh el khir
+    - hey 
+    - ahlan 
+
+- intent: goodbye
+  examples: |
+    - mriguel ay 
+    - nharek zin
+    - bye 
+    - ciao
+    - marhbe bik 
+    - nkhalik ay
+    - nchallh nharek zin
+    - nharek said
+
+- intent: lost_card
+  examples: |
+    - bellehy dhayaeet lcarta mtai chnaamel?
+    - dhayaeet el CC mtai chnaamel ? 
+    - ki ndhaya l carte credit mtai chneya lprocedure ?
+    - kifeh nbloki carta day3a ? 
+    - carta mtai mal9ythech 
+    - chnaamel ken lcarta mteey dhaet ?
+    - bellehy ken tnajjem taaweni carte perdue
+    - caarte mteey dhaet chnowa namel ?
+
+- intent: bank_mission
+  examples: |
+    - chnouma les missions  elli tekhdmou alihom ?
+    - smaet elli andkom plusieurs missions tekhdmou alihom chnouma ?
+    - smaet elli andkom plusieurs missions tekhdmou  fihom  , tajem tahkili alihom ??
+    - ahkili ala missionnett mta banketkom 
+    - les missions mte3kom chnouma ?
+
+
+- intent: bank_services
+  examples: |
+    - nheb naref les services mtaakom
+    - chandkom  fil banka ?
+    - chnouma les offres eli andkom ?
+    - fech tajmou tawnouna ?
+    - chnouma les services mta el banka ?
+    - tahkili ala les services mta el banka !
+
+
+- intent: bank_account_type
+  examples: |
+    - chnouma les types des comptes 
+    - nheb nhel comptes 
+    - mana3refch chnowa les compte elli lezemni
+    - chfamma comptouwett
+    - kolli chandkom des comptes
+    - nheb naref les type mta les comptes elli famma 
+    - tajem taweni nheb nhel compte w mnarefch chfamma ?
+
+
+- intent: bank_Vision
+  examples: |
+    - chniya vision mteakom ?
+    - win theb takhltou bkhdemtkom ?
+    - chniyya tvisiw  entom ?
+    - tekhdmou b vision  mouanya chniya hiya ?
+    - ahkili ala,l vision mta banketkom 
+    - akid andek vision , ahkili liha
+
+- intent: bot_challenge
+  examples: |
+    - enty chkoun ? 
+    - chneya khedmtek ?
+    - chtaamel lenna enty  ? 
+    - bot walla le w alech tesnaet ? 
+    - chkoun yjaweb fiya ? 
+    - chkounek enty w chtaamel ?  ? 
+    - chkounek w chneya wadhiftek f denya ? 
+    - chnouma les taches ly tekhdmhom ?
+
+
+- intent: bank_credit_type
+  examples: |
+    - nheb naref chnowa les  le credit andkom 
+    - nheb nekhou credit  bech tensahni 
+    - chnouma les credits elli andkom
+    - maarefch chnowa lezemni credit ,tajem t3weni ?
+    - kolli chnouma les credits w emehou khir?
+    - bellehy kifeh naref 9aroudhat elli andkom
+    - nheb nekhou 9ardh chandkom ?
+    - nheb nekhou 9aredh w nheb naaref chandkom kroudhat 
+    - andekom micro credit ? 
+
+- intent: help_confirmation
+  examples: |
+    - oui !
+    - ey 
+    - ey 3awenni bel behy 
+    - ey aychek 
+    - m3alem bankeji 
+    - kesssa7 Bankeji
+
+
+- intent: help_unconfirmation
+  examples: |
+    - non  !
+    - le 
+    - lahkika mawentnich 
+    - malheuresement mafhemtch !
+    - fech thkii ?
+    - jemlaa
+
+   
+
+
+
+- intent: greet_an
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - good afternoon
+
+- intent: goodbye_an
+  examples: |
+    - cu
+    - good by
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: lost_card_an
+  examples: |
+    - I lost my card.
+    - Can't find my card
+    - Lost Card
+    - Can I get a new card
+    - What are the procedures to lost cards
+
+- intent: Bank_mission_an
+  examples: |
+    - What are your missions
+    - Missions
+    - What does the bank offer ?
+    - What are your work types
+
+- intent: Bank_services_an
+  examples: |
+    - What are your services?
+    - What type of services do you offer
+    - Do you have any special services
+    - Services
+
+- intent: Bank_account_type_an
+  examples: |
+    - What are available account types
+    - Account types
+    - Are their specific bank types
+    - Different types of aacounts
+
+- intent: bank_credit_type_an
+  examples: |
+    - What are your available credits
+    - I want to get a credit, what do you offer?
+    - Do you have different credits ?
+    - I don't know which credit suits me, can you help ?
+    - What are your credits and which one is best ?
+    - What are your loans?
+    - How can I get a loan?
+    - Do you have micro loans or services?
+
+- intent: help_confirmation_an
+  examples: |
+    - yes!
+    - yeah
+    - yep
+    - yes thank you
+    - yeah good job bot
+
+- intent: help_unconfirmation_an
+  examples: |
+    - no!
+    - nah
+    - you didn't help
+    - nope
+    - it was HORRIBLE !
+
+- intent: bank_values_an
+  examples: |
+    - What are your bank values?
+    - What are your values ?
+    - What makes your bank special ?
+    - Do you have any values ?
+
+- intent: bank_Vision_an
+  examples: |
+    - What is your vision?
+    - What makes your bank stand out?
+    - Do you have any particular vision?
+    - Can you tell me about your vision ?
+
+- intent: bot_challenge_an
+  examples: |
+    - Who are you ?
+    - What's your job ?
+    - Are you real?
+    - Is there a human behind this ?
+    - Are you a human?
+
+
+
+- intent: greet_fr
+  examples: |
+    - Bonjour
+    - Salut
+    - Yoo
+    - ça marche? 
+    - Salut, ça va?
+    - Comment ça va?
+    - Tu vas bien ?
+    - Bonsoir
+    - Est-il possible de discuter avec quelqu'un ?
+    - J'ai une question. Pouvez-vous m'aider ?
+    - Coucou
+    - Wesh
+    
+
+- intent: goodbye_fr
+  examples: |
+    - Au revoir
+    - Bonne journée
+    - Bonne soirée
+    - à demain
+    - à la prochaine
+    - Adieu
+    - Bye
+    - à une autre fois
+    - à bientôt
+    - à la revoyure
+    - au plaisir
+    - ciao
+
+- intent: lost_card_fr
+  examples: |
+    - Quelle est la procédure pour signaler une carte volée ?
+    - Quelles démarches puis-je entreprendre lorsque je perds ma carte de crédit?
+    - Comment puis-je annuler ma carte de crédit qui a été volée ?
+    - Comment déposer une demande de carte manquante ?
+    - Quelles démarches entreprendre en cas de carte de crédit manquante ?
+    - Comment déclarer un vol de carte ?
+    - Comment déclarer le vol de ma carte bancaire ?
+    - Combien coûte une carte perdue ?
+    - J'ai perdu ma carte de crédit et je veux la désactiver
+    - Je ne sais pas où j'ai placé ma carte de crédit
+    - Puis-je verrouiller ma carte de crédit jusqu'à ce que je la retrouve ?
+    - J'ai besoin d'aide car j'ai perdu ma carte de crédit
+    - Je voudrais savoir quoi faire si je perds ma carte de crédit
+    - Y a-t-il des frais pour enregistrer une plainte pour perte de carte de crédit ?
+    - Ma carte de crédit est perdue comment dois-je l'annuler ?
+    - Quelqu'un a pris ma carte !
+    - Comment signaler une carte perdue ?
+
+- intent: bank_Vision_fr
+  examples: |
+    - Quelle est la vision de votre banque?
+    - Quelle est votre vision pour le futur?
+    - Que prévoit votre banque pour le futur?
+    - Qu'allez vous ajouter pour le futur?
+    - Vision
+
+- intent: bank_account_type_fr
+  examples: |
+     - Je veux ouvrir un compte
+     - Quels sont les comptes que vous offrez ?
+     - Quels type de comptes possédez-vous ?
+     - Aidez moi à choisir le bon compte
+     - De quoi j'ai besoin pour ouvrir un compte?
+     - Quels sont les nécessités pour ouvrir un compte ?
+
+- intent: bank_services_fr
+  examples: |
+    - Services
+    - Quelles sont vos services ?
+    - Que proposez vous ?
+    
+
+- intent: bot_challenge_fr
+  examples: |
+    - Etes-tu un bot ?
+    - Qui est tu ?
+    - T'es un bot ?
+
+
+- intent: bank_mission_fr
+  examples: |
+    - Qu'elle est votre mission?
+    - Je veux savoir votre mission?
+    - mission 
+    - Qu'avez vous comme mission?
+
+
+- intent: bank_values_fr
+  examples: |
+     - Quelles sont les valeurs de votre banque ?
+     - Quelles sont vos valeurs ?
+     - Valeurs ?
+     - Sur quelles valeurs vous basez-vous ?
+
+
+
+- intent: bank_credit_type_fr
+  examples: |
+     - J'ai besoin d'un crédit
+     - Quels sont les crédits que vous proposez ?
+     - J'ai besoin d'une grande somme d'argent
+     - Je veux un crédit
+     - Je veux avoir un crédit
+     - Quels sont les crédits que vous avez ?
+     - Quels sont les types de crédits ?
+     - Crédit   
+
+
+- intent: help_confirmation_fr
+  examples: |
+    - je vous remerci mon probleme est resolu 
+    - merci pour votre aide
+    - oui
+    - oui, absolument 
+    -Genial, merci Bankeji 
+   
+
+
+- intent: help_unconfirmation_fr
+  examples: |
+     - j'ai encore de problemes
+     - mon probleme n'as pas était resolu
+     - le probleme est encore existant
+     - Je veux parler directement au service client
+     - Est ce que je peux avoir votre numéro service client
+     - J'ai besoin d'une personne du service client
+     - Mettez moi en contact avec le service client
+     - j'ai besoin d'aide très urgente
+     - non
+     - tu as rien compris 
+     
+   
+    

@@ -1,0 +1,58 @@
+[
+  {
+    "text": "ciao",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "goodbye_fr",
+      "confidence": 0.595017671585083
+    }
+  },
+  {
+    "text": "non  !",
+    "intent": "help_unconfirmation",
+    "intent_prediction": {
+      "name": "help_unconfirmation_fr",
+      "confidence": 0.4830903112888336
+    }
+  },
+  {
+    "text": "hey",
+    "intent": "greet_an",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5182196497917175
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye_an",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8280634880065918
+    }
+  },
+  {
+    "text": "bye bye",
+    "intent": "goodbye_an",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4716176390647888
+    }
+  },
+  {
+    "text": "Services",
+    "intent": "bank_services_fr",
+    "intent_prediction": {
+      "name": "Bank_services_an",
+      "confidence": 0.5437511801719666
+    }
+  },
+  {
+    "text": "oui",
+    "intent": "help_confirmation_fr",
+    "intent_prediction": {
+      "name": "help_confirmation",
+      "confidence": 0.640031099319458
+    }
+  }
+]

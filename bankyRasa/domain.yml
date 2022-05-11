@@ -1,0 +1,239 @@
+version: "3.0"
+
+intents: 
+  - greet
+  - goodbye
+  - lost_card
+  - bank_mission
+  - bank_services
+  - bank_account_type
+  - bank_Vision
+  - bot_challenge
+  - bank_credit_type
+  - help_confirmation
+  - help_unconfirmation
+  - greet_an
+  - goodbye_an
+  - lost_card_an
+  - Bank_mission_an
+  - Bank_services_an
+  - Bank_account_type_an
+  - bank_credit_type_an
+  - help_confirmation_an
+  - help_unconfirmation_an
+  - bank_values_an
+  - bank_Vision_an
+  - bot_challenge_an
+  - greet_fr
+  - goodbye_fr
+  - lost_card_fr
+  - bank_Vision_fr
+  - bank_account_type_fr
+  - bank_services_fr
+  - bot_challenge_fr
+  - bank_mission_fr
+  - bank_values_fr
+  - bank_credit_type_fr
+  - help_confirmation_fr
+  - help_unconfirmation_fr
+
+responses:
+  utter_greet:
+  - text: "ahla bik"
+  - text: "sbeh ennour"
+  - text: "salem"
+  - text: "aslema"
+  - text: "ahla"
+  - text: "marhbe"
+  - text: "marhbe bik"
+
+  utter_goodbye:
+  - text: "nharek zin"
+  - text: "bye,bye !"
+  - text: "ciao"
+  - text: "annestou"
+  - text: "selem"
+  - text: "nkhalik ay"
+  - text: "nchallh nharek zin"
+  - text: "nharek said"
+
+  utter_lost_card:
+  - text: "Marhbé byk,\n
+    haw bch n3adidlek reclamation tnajjem tetfadhel la9reb agence ba7thek f ay wa9t bin 8:30-11:45 walla 13:30-17:00 w nchoufoulek 7al lel mochkla \n
+    un agent yekdhek en charge"
+
+  utter_bank_mission:
+  - text: "Ana plusieurs missions nekhdmou alihom : \n
+    \n - Constituer l’institution de choix pour les clients, employés, investisseurs et fournisseurs.
+    \n - Constituer l’intervenant dominant sur le marché. 
+    \n -  Maintenir une notation de crédit la plus élevée.
+    \n - Avoir une notoriété de la marque et une valeur de la marque.
+    \n - Réaliser une croissance rentable soutenue.
+    \n - Renforcer la valeur pour l’actionnaire."
+
+  utter_bank_services:
+    - text: "sehla barcha :\n
+    \n - Bankeji bech ysahel alik edenyya bech naatik les services mte3nna el kol  :
+    \n - Anna plusieurs offres de comptes, plusieurs façons w types des credits,w anna zeeda des offres behin ken theb techri krahba walla dar walla hatta tele walla hatta pc. marhbe bik !!! "
+
+  utter_bank_account_type:
+  - text: "Anna ahsen type mta des comptes: \n
+    \n - le compte courant walla epargne w zooz  0% frais,
+    \n - compte courant normal elli maah carte international,
+    \n - compte epargne bech tkhmeme fi sgharek . "
+
+  utter_bank_Vision:
+  - text: "El vision mtanna m9assma el deux parties :\n
+    \n - A court terme nhebbou nlemmou akther men 30% m les clients bancaires  anna w ywliwi andhom des compte mana
+    \n - A long terme hebbou nawliw officiellment une banque international  w nkounou representant  des banques tunisinne à l'echelle international fil union bancaire  . "
+
+  utter_bot_challenge:
+  - text: "Marhbé byk ! Ena esmi Bankeji \n
+    \n - Ena awel ChatBot intellegent tounsi fi tounes
+    \n - Developpé bch njeweb aala les questions ly aandek concernant lbanque mte3na
+    \n => Kol me aandou 3ale9a b les comptes, les offres de credits walla les probléme ly yo3rdhouk n7awel le n3awnek sinon n3addilek reclamation w yetlhew bik  :) "
+  
+  
+  
+  utter_bank_credit_type:
+  - text: "Aywah sujet  heyel !
+    \ntatik plusieurs types de credit:
+    \n - credit krhbty.
+    \n - credit dari. 
+    \n - credit hyety.
+    \nmanajemch nkollek ahsen offre emehou khter ça depend menk enty amma credit hyety howa lowel khterrou credit complet tajem bih tekhou krhba ,dar, takra , tarress... kol chy"
+
+
+  utter_did_that_help:
+  - text: "3awentek hakka ?"
+  - text: "j'espere jawebtek alli hachtek bih !"
+  - text : " nchallh ykounou wesloulou les information ! "
+
+
+  utter_happy:
+  - text: "marhbe bik fi kol waket, nhwel dima bech n3awnek :) !"
+    image: "https://i.imgur.com/Uhn8QCO.jpg"
+  utter_unhappy:
+  - text: "khsara , ija 3wed eselni maniere o5ra belkchni najem nefhmek :( !"
+    image: "https://i.imgur.com/QZp5gEp.jpg"
+  
+  utter_bank_values_fr:
+  - text: "Nos valeurs sont : \n
+  \n - L'Excellence Opérationnelle: Améliorer l'expérience client par un facteur de 10 fois chaque année.
+  \n - Intégrité: En tout temps et en tout situation de travail avec intégrité, la confiance et l'honnêteté.
+  \n - Transparence: Assurer que tous les produits, les processus et les interactions sont transparentes et justes."
+  
+  utter_greet_an:
+  - text: "Hey! How are you?"
+
+  
+
+  utter_goodbye_an:
+  - text: "Bye"
+
+  utter_bot_an:
+  - text: "I am Banky powered to help you"
+
+  utter_account_type_an:
+  - text: "- Current account:
+            A current account is a deposit account for traders, business owners, and entrepreneurs, who need to make and receive payments more often than others.
+            - Savings account:
+            A savings bank account is a regular deposit account, where you earn a minimum rate of interest.
+            - Salary account:
+            Among the different types of bank accounts, your salary account is the one you have opened as per the tie-up between your employer and the bank. This is the account, where salaries of every employee are credited to at the beginning of the pay cycle.
+            Employees can pick their type of salary account based on the features they want.\n
+            The bank, where you have a salary account, also maintains reimbursement accounts; this is where your allowances and reimbursements are credited to."
+
+  utter_lost_card_an:
+  - text: "Please head to the nearest bank to block your card and prevent stealing"
+
+  utter_mission_an: 
+  - text: "We aim to provide best services at lowest costs, as well as guarantee better customer services through automated transactions "
+
+  utter_values_an:
+  - text: "Here are our core values:
+     Integrity, Teamwork , Excellence ,Commitment ,Professionalism ,Customers ,Trust"
+
+  utter_Services_an:
+  - text: "Our services are the following:
+            - Safe transactions through our secured pathways
+            - low rate credits
+            - low rate on credit cards ( you can save up to 20% )
+            - better customer engaements through our online platform"
+
+  utter_credit_an:
+  - text: " 
+      - Revolving Credit:
+      This form of credit allows you to borrow money up to a certain amount. The lending institution sets a credit limit, or the most you can borrow.
+      - Installment Credit:
+      Installment credit involves a set amount borrowed, a set monthly payment and a set timeframe of repayment. Interest charges are pre-determined and calculated into the set monthly payments.
+      - Non-Installment or Service Credit:
+      This form of credit allows the borrower to pay for a service, membership, etc. at a later date. Generally, payment is due the month following the service, and unpaid balances will incur a fee, interest, and/or penalty charges.
+      "
+
+  utter_vision_an:
+  - text: "
+        As we continue the journey to be the best bank in our market and achieve our long-term goals, our new Mission and Vision statements will guide our decisions and align us as an organization to reach the aspirations we have declared for the future. They ensure that Associates understand who we are and where we are headed and help us work toward a single purpose."
+
+  utter_happy_an:
+  - text: "It was a pleasure, thank you!"
+    image: "https://i.imgur.com/Uhn8QCO.jpg"
+
+  utter_unhappy_an:
+  - text: "oooh, can you ask me again please  ?"
+    image: "https://i.imgur.com/QZp5gEp.jpg"
+
+  utter_did_that_help_an:
+  - text : " I hope I met your needs "
+
+
+  utter_greet_fr:
+  - text: "Salut, salut !"
+  - text: "C'est bon de te revoir"
+  - text: "Bonjour, comment puis-je t'aider ?"
+
+
+  utter_goodbye_fr:
+  - text: "A plus tard, merci pour votre visite"
+  - text: "à une autre fois !"
+  - text: "Au revoir! Revenez bientôt !"
+  
+
+  utter_lost_card_fr:
+  - text: "Vous trouverez ci-dessous quelques conseils utiles et mesures de sécurité \npour vous aider à assurer votre sécurité lors de la réalisation de transactions aux guichets automatiques et aux points de vente:\nhttps://www.qnb.com.tn/fr/bank-safely.html"
+
+  utter_bank_Vision_fr:
+  - text: "-Constituer l’institution de choix pour les clients, employés, investisseurs et fournisseurs.\n -Constituer l’intervenant dominant sur le marché. \n -Maintenir une notation de crédit la plus élevée.\n -Avoir une notoriété de la marque et une valeur de la marque.\n -Réaliser une croissance rentable soutenue.\n - Renforcer la valeur pour l’actionnaire."
+
+  utter_bank_account_type_fr:
+  - text: "Notre Banque vous offre 3 types de comptes :\n-compte courant \n-compte épargne\n-compte professionnel"
+
+  utter_bank_services_fr:
+  - text: "Le Groupe QNB a mis en place un programme de soutien communautaire actif et sponsorise diverses activités sociales, éducatives, culturelles et sportives au Qatar et aux lieux d’implantation de ses agences et ses filiales."
+
+  utter_bot_challenge_fr:
+  - text: "Je m'appelle Bankeji et je suis le bot le plus mignon en Tunisie."
+
+  utter_bank_mission_fr:
+  - text: "Constituer l’institution de choix pour les clients, employés, investisseurs et fournisseurs. \nConstituer l’intervenant dominant sur le marché.\nMaintenir une notation de crédit la plus élevée.\nAvoir une notoriété de la marque et une valeur de la marque.\nRéaliser une croissance rentable soutenue.\nRenforcer la valeur pour l’actionnaire."
+
+  utter_bank_credit_type_fr:
+  - text:  "La Banque vous offre 4 types de credits:\n-Crédit Direct\n-Crédit Logement\n-Crédit Aménagement\n-Crédit Auto"
+
+  utter_did_that_help_fr:
+  - text : " J’espère avoir répondu à vos besoins"
+
+  utter_happy_fr:
+  - text: "yeey, ça me fais plaisir !"
+    image: "https://i.imgur.com/Uhn8QCO.jpg"
+
+  utter_unhappy_fr:
+  - text: "Malheuresement, tu veux me poser la question avec une autre manière ?"
+    image: "https://i.imgur.com/QZp5gEp.jpg"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
